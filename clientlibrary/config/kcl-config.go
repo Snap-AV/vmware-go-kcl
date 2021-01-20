@@ -37,11 +37,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/vmware/vmware-go-kcl/clientlibrary/metrics"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/metrics"
 
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/utils"
+	"github.com/Snap-AV/vmware-go-kcl/logger"
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/utils"
-	"github.com/vmware/vmware-go-kcl/logger"
 )
 
 // NewKinesisClientLibConfig creates a default KinesisClientLibConfiguration based on the required fields.

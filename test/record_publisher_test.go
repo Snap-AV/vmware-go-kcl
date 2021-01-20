@@ -21,6 +21,7 @@ package test
 import (
 	"crypto/md5"
 	"fmt"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/utils"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
@@ -28,7 +29,6 @@ import (
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
 	rec "github.com/awslabs/kinesis-aggregation/go/records"
 	"github.com/golang/protobuf/proto"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/utils"
 
 	"testing"
 )

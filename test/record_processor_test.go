@@ -19,9 +19,9 @@
 package test
 
 import (
+	kc "github.com/Snap-AV/vmware-go-kcl/clientlibrary/interfaces"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/stretchr/testify/assert"
-	kc "github.com/vmware/vmware-go-kcl/clientlibrary/interfaces"
 	"testing"
 )
 

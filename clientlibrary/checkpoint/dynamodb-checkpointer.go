@@ -38,9 +38,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
 
-	"github.com/vmware/vmware-go-kcl/clientlibrary/config"
-	par "github.com/vmware/vmware-go-kcl/clientlibrary/partition"
-	"github.com/vmware/vmware-go-kcl/logger"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/config"
+	par "github.com/Snap-AV/vmware-go-kcl/clientlibrary/partition"
+	"github.com/Snap-AV/vmware-go-kcl/logger"
 )
 
 const (

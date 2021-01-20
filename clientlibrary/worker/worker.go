@@ -37,11 +37,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
 
-	chk "github.com/vmware/vmware-go-kcl/clientlibrary/checkpoint"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/config"
-	kcl "github.com/vmware/vmware-go-kcl/clientlibrary/interfaces"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/metrics"
-	par "github.com/vmware/vmware-go-kcl/clientlibrary/partition"
+	chk "github.com/Snap-AV/vmware-go-kcl/clientlibrary/checkpoint"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/config"
+	kcl "github.com/Snap-AV/vmware-go-kcl/clientlibrary/interfaces"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/metrics"
+	par "github.com/Snap-AV/vmware-go-kcl/clientlibrary/partition"
 )
 
 /**

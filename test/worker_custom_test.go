@@ -30,11 +30,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	chk "github.com/Snap-AV/vmware-go-kcl/clientlibrary/checkpoint"
+	cfg "github.com/Snap-AV/vmware-go-kcl/clientlibrary/config"
+	par "github.com/Snap-AV/vmware-go-kcl/clientlibrary/partition"
+	wk "github.com/Snap-AV/vmware-go-kcl/clientlibrary/worker"
 	"github.com/stretchr/testify/assert"
-	chk "github.com/vmware/vmware-go-kcl/clientlibrary/checkpoint"
-	cfg "github.com/vmware/vmware-go-kcl/clientlibrary/config"
-	par "github.com/vmware/vmware-go-kcl/clientlibrary/partition"
-	wk "github.com/vmware/vmware-go-kcl/clientlibrary/worker"
 )
 
 func TestWorkerInjectCheckpointer(t *testing.T) {

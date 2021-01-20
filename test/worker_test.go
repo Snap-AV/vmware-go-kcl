@@ -26,18 +26,18 @@ import (
 	"testing"
 	"time"
 
+	cfg "github.com/Snap-AV/vmware-go-kcl/clientlibrary/config"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/metrics"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/metrics/cloudwatch"
+	"github.com/Snap-AV/vmware-go-kcl/clientlibrary/metrics/prometheus"
+	wk "github.com/Snap-AV/vmware-go-kcl/clientlibrary/worker"
+	"github.com/Snap-AV/vmware-go-kcl/logger"
+	zaplogger "github.com/Snap-AV/vmware-go-kcl/logger/zap"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/prometheus/common/expfmt"
 	"github.com/stretchr/testify/assert"
-	cfg "github.com/vmware/vmware-go-kcl/clientlibrary/config"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/metrics"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/metrics/cloudwatch"
-	"github.com/vmware/vmware-go-kcl/clientlibrary/metrics/prometheus"
-	wk "github.com/vmware/vmware-go-kcl/clientlibrary/worker"
-	"github.com/vmware/vmware-go-kcl/logger"
-	zaplogger "github.com/vmware/vmware-go-kcl/logger/zap"
 )
 
 const (

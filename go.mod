@@ -1,4 +1,4 @@
-module github.com/vmware/vmware-go-kcl
+module github.com/Snap-AV/vmware-go-kcl
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
